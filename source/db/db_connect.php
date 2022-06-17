@@ -12,9 +12,10 @@
         function __construct(){
             $dsn = "mysql:host=$this->localhost;database=$this->db_name;charset=$this->charset;";
             try {
-                $this->db = new PDO($this->user, $this->password, $dsn);
+                $this->db = new PDO($dsn, $this->user, $this->password);
+                $this->db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION)
             }catch (PDOException $e){
-                echo '<h1 class="text-danger">Failed to connect to Database</h1>';
+                echo '<h1 class="text-danger">Failed to connect</h1>';
                 throw new PDOException($e->getMessage());
             }
         }
