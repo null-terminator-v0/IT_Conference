@@ -16,11 +16,11 @@
 </head>
 <body>
 <div class="center">
-    <nav class="nav nav-pills flex-column flex-sm-row bg-dark text-white">
-        <a class="flex-sm-fill text-sm-center nav-link" aria-current="page" href="index.php">Home</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="attendees.php">Attendees</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Public Speakers</a>
-        <a class="flex-sm-fill text-sm-center nav-link">About Us</a>
+    <nav class="nav nav-pills flex-column flex-sm-row bg-dark">
+        <a class="flex-sm-fill text-sm-center nav-link text-white" aria-current="page" href="index.php">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-white" href="attendees.php">Attendees</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Public Speakers</a>
+        <a class="flex-sm-fill text-sm-center nav-link text-white">About Us</a>
     </nav>
 </div>
 <div class="mydiv container center">
