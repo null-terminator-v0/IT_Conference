@@ -10,7 +10,7 @@
 
 <!--horizontal line separating the copyright footer-->
 <hr>
-<div class="text-center">
+<div class="text-center text-secondary fst-italic">
 <!--    copyright information generated from php code-->
     <?php
         echo 'Copyright &copy - ' . date(y);
