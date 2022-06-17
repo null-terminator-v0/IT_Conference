@@ -1,7 +1,7 @@
-/*.form-control:focus {*/
-/*    border-color: #212738;*/
-/*    box-shadow: 0 0 0 0.2rem black;*/
-/*}*/
+.form-control:focus {
+    border-color: black;
+    box-shadow: 0 0 0 0.2rem black;
+}
 
 .mydiv{
     font-family: Serif,serif;
