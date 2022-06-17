@@ -5,7 +5,7 @@
 
 
     <table class="table">
-        <thead class="bg-color">
+        <thead class="table-dark">
         <tr>
             <th scope="col">#</th>
             <th scope="col">First</th>
