@@ -32,28 +32,10 @@ require_once "includes/header.php";
             <input type="text" class="form-control" id="email" aria-describedby="emailHelp" autocomplete="off" required>
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
-        <button type="submit" class="btn btn-dark">Submit</button>
+        <div class="d-grid gap-2">
+            <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
     </form>
 
-<!--    <table class="table">-->
-<!--        <thead class="table-dark">-->
-<!--        <tr>-->
-<!--            <th scope="col">#</th>-->
-<!--            <th scope="col">First</th>-->
-<!--            <th scope="col">Last</th>-->
-<!--            <th scope="col">Email address</th>-->
-<!--            <th scope="col">Profession</th>-->
-<!--        </tr>-->
-<!--        </thead>-->
-<!--        <tbody class="table-group-divider">-->
-<!--        <tr>-->
-<!--            <th scope="row">1</th>-->
-<!--            <td>Mark</td>-->
-<!--            <td>Otto</td>-->
-<!--            <td>whatever@mdo.com</td>-->
-<!--            <td>brick layer</td>-->
-<!--        </tr>-->
-<!--        </tbody>-->
-<!--    </table>-->
 
 <?php require_once "includes/footer.php"; ?>
