@@ -16,7 +16,7 @@
 </head>
 <body>
 <div class="center">
-    <nav class="nav nav-pills flex-column flex-sm-row bg-dark">
+    <nav class="nav nav-pills flex-column flex-sm-row bg-color">
         <a class="flex-sm-fill text-sm-center nav-link text-white" aria-current="page" href="index.php">Home</a>
         <a class="flex-sm-fill text-sm-center nav-link text-white" href="attendees.php">Attendees</a>
         <a class="flex-sm-fill text-sm-center nav-link text-white" href="#">Public Speakers</a>
