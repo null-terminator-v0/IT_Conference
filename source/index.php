@@ -11,7 +11,7 @@ require_once "includes/header.php";
     <form>
         <div class="mb-3">
             <label for="firstname" class="form-label">First name</label>
-            <input type="text" class="form-control" id="firstname" autocomplete="off" required class="outline-dark">
+            <input type="text" class="form-control" id="firstname" autocomplete="off" required>
 
         </div>
         <div class="mb-3">
