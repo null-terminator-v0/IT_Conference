@@ -1,4 +1,5 @@
 <?php
+require_once "db/db_connect.php";
 $title = 'index';
 require_once "includes/header.php";
 ?>
@@ -8,7 +9,7 @@ require_once "includes/header.php";
     <h1 class="display-6  text-center">Registration Page</h1>
     <br>
 
-    <form>
+    <form method="post">
         <div class="mb-3">
             <label for="firstname" class="form-label">First name</label>
             <input type="text" class="form-control" id="firstname" autocomplete="off" required>
@@ -33,7 +34,7 @@ require_once "includes/header.php";
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" id="submit" class="btn btn-dark">Submit</button>
         </div>
     </form>
 
