@@ -33,7 +33,7 @@ require_once "includes/header.php";
             <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
         </div>
         <div class="d-grid gap-2">
-            <button type="submit" class="btn btn-dark">Submit</button>
+            <button type="submit" class="btn bg-color">Submit</button>
         </div>
     </form>
 
