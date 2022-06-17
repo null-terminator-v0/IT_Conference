@@ -4,8 +4,8 @@ require_once "includes/header.php";
 ?>
 
     <br>
-<h1 class="display-3 text-center">IT Conference</h1>
-<h1 class="display-5">Registration Page</h1>
+    <h1 class="display-3 text-center">IT Conference</h1>
+    <h1 class="display-5  text-center">Registration Page</h1>
     <br>
     <br>
 
