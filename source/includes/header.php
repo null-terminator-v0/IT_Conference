@@ -15,12 +15,12 @@
     <title>Attendance - <?php echo "$title"?></title>
 </head>
 <body>
-<div class="container center">
+<div class="center">
     <nav class="nav nav-pills flex-column flex-sm-row bg-dark">
-        <a class="flex-sm-fill text-sm-center nav-link active" aria-current="page" href="index.php">Home</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="attendees.php">Attendees</a>
-        <a class="flex-sm-fill text-sm-center nav-link" href="#">Public Speakers</a>
-        <a class="flex-sm-fill text-sm-center nav-link disabled">About Us</a>
+        <a class="flex-sm-fill text-sm-center nav-link fsw-white" aria-current="page" href="index.php">Home</a>
+        <a class="flex-sm-fill text-sm-center nav-link fsw-white" href="attendees.php">Attendees</a>
+        <a class="flex-sm-fill text-sm-center nav-link fsw white" href="#">Public Speakers</a>
+        <a class="flex-sm-fill text-sm-center nav-link fsw-white">About Us</a>
     </nav>
 </div>
 <div class="mydiv container center">
