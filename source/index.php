@@ -1,0 +1,59 @@
+<?php
+$title = 'index';
+require_once "includes/header.php";
+?>
+
+    <br>
+<h1 class="display-1 text-center">Registration Page</h1>
+    <br>
+    <br>
+
+    <form>
+        <div class="mb-3">
+            <label for="firstname" class="form-label">First name</label>
+            <input type="text" class="form-control" id="firstname" autocomplete="off" required class="outline-dark">
+
+        </div>
+        <div class="mb-3">
+            <label for="lastname" class="form-label">Last name</label>
+            <input type="text" class="form-control" id="lastname" autocomplete="off" required>
+        </div>
+        <div class="mb-3">
+            <label for="profession" class="form-label">Profession</label>
+            <select class="form-select" aria-label="Default select example" id="profession" required>
+                <option selected disabled hidden>select...</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+        </div>
+        <div class="mb-3">
+            <label for="email" class="form-label">Email address</label>
+            <input type="text" class="form-control" id="email" aria-describedby="emailHelp" autocomplete="off" required>
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <button type="submit" class="btn btn-dark">Submit</button>
+    </form>
+
+<!--    <table class="table">-->
+<!--        <thead class="table-dark">-->
+<!--        <tr>-->
+<!--            <th scope="col">#</th>-->
+<!--            <th scope="col">First</th>-->
+<!--            <th scope="col">Last</th>-->
+<!--            <th scope="col">Email address</th>-->
+<!--            <th scope="col">Profession</th>-->
+<!--        </tr>-->
+<!--        </thead>-->
+<!--        <tbody class="table-group-divider">-->
+<!--        <tr>-->
+<!--            <th scope="row">1</th>-->
+<!--            <td>Mark</td>-->
+<!--            <td>Otto</td>-->
+<!--            <td>whatever@mdo.com</td>-->
+<!--            <td>brick layer</td>-->
+<!--        </tr>-->
+<!--        </tbody>-->
+<!--    </table>-->
+
+<?php require_once "includes/footer.php"; ?>
