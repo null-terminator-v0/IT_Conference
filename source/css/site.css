@@ -1,4 +1,10 @@
-.form-control.form-select:focus {
+.form-control:focus {
+    border-color: black;
+    opacity: 0.5;
+    box-shadow: 0 0 0 0.2rem black;
+}
+
+.form-select:focus {
     border-color: black;
     opacity: 0.5;
     box-shadow: 0 0 0 0.2rem black;
