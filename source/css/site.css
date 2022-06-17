@@ -1,8 +1,8 @@
-.form-control:focus {
-    border-color: #212738;
-    box-shadow: 0 0 0 0.2rem black;
-}
+/*.form-control:focus {*/
+/*    border-color: #212738;*/
+/*    box-shadow: 0 0 0 0.2rem black;*/
+/*}*/
 
-div {
+.mydiv{
     font-family: Serif,serif;
 }
