@@ -15,4 +15,4 @@
     <title>Attendance - <?php echo "$title"?></title>
 </head>
 <body>
-<div class="container center" style="font-family: Serif,serif">
+<div class="container center">
