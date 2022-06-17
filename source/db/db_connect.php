@@ -15,7 +15,7 @@
                 $this->db = new PDO($this->user, $this->password, $dsn);
             }catch (PDOException $e){
                 echo "<h1 class='text-danger'>Failed to connect to Database</h1>";
-                throw new PDOException($e->getMessage());
+                throw new $e->getMessage();
             }
         }
 
