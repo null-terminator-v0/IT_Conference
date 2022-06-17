@@ -5,8 +5,8 @@ require_once "includes/header.php";
 
     <br>
     <h1 class="display-4 text-center"><u>IT Conference</u></h1>
-    <h1 class="display-6  text-center">Registration Page</h1>
     <br>
+    <h1 class="display-6  text-center text-secondary">Registration Page</h1>
     <br>
 
     <form>
