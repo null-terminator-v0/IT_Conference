@@ -34,7 +34,7 @@
         </div>
         <!--    Button to submit sign up information and trigger modal to determine whether the data was saved into the database   -->
         <div class="d-grid gap-2">
-            <button type="submit" id="submit" class="btn btn-dark" onclick="return validationForm()">Submit</button>
+            <button type="submit" id="submit" class="btn btn-dark" onclick="modalToggle()">Submit</button>
         </div>
     </form>
 <!--    data-bs-toggle="modal" data-bs-target="#modal"-->

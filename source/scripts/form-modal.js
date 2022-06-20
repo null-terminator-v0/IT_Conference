@@ -10,6 +10,6 @@ function validationForm(){
 
 function modalToggle(){
     if(validationForm()){
-        document.getElementById("modal").ariaHidden("false");
+        $("modal").modal("show");
     }
 }
