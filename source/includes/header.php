@@ -12,6 +12,12 @@
     <!--    css link    -->
     <link rel="stylesheet" href="css/site.css">
 
+    <!--    jQuery CDN  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!--    validation form and modal trigger script    -->
+    <script type="text/javascript" src="scripts/form-modal.js"></script>
+
     <title>Attendance - <?php echo "$title"?></title>
 </head>
 <body>

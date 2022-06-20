@@ -1,14 +1,5 @@
-function validationForm(){
-    let x = document.forms["signupForm"]["firstname"]["lastname"]["profession"]["email"].value;
-    if (x == ""){
-        return (false);
-    }
-    return (true);
-}
-
-function modalToggle(){
-    if(validationForm()){
-        console.log('modal should be showing');
-        $('modal').show('show');
-    }
-}
+$(document).ready(function () {
+    $("#submit").click(function () {
+        $("div").hide();
+    });
+});
