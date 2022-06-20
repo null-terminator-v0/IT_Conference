@@ -10,8 +10,8 @@
             <th scope="col">#</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>
-            <th scope="col">Email address</th>
             <th scope="col">Profession</th>
+            <th scope="col">Email address</th>
         </tr>
         </thead>
         <tbody class="table-group-divider">
@@ -19,8 +19,8 @@
             <th scope="row">1</th>
             <td>Mark</td>
             <td>Otto</td>
-            <td>whatever@mdo.com</td>
             <td>brick layer</td>
+            <td>whatever@mdo.com</td>
         </tr>
         </tbody>
     </table>
