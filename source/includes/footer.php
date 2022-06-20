@@ -15,24 +15,7 @@
 <!--****************************************-->
 <script>
     $(document).ready(function () {
-        $("#signupForm").validate({
-            rules: {
-                firstname: 'required',
-                lastname: 'required',
-                email: {
-                    required: true,
-                    maxLength: 255,
-                },
-                message: {
-                    firstname: 'This field is required',
-                    lastname: 'This field is required',
-                    email: 'Enter a valid Email Address',
-                },
-                submitHandler: function (form) {
-                    form.submit();
-                },
-            }
-        });
+        $("#signupForm").validate();
     });
 </script>
 
