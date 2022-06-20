@@ -8,6 +8,7 @@ function validationForm(){
 
 function modalToggle(){
     if(validationForm()){
+        console.log('modal should be showing');
         $('modal').show('show');
     }
 }
