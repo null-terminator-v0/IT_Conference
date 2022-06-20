@@ -1,7 +1,7 @@
 <?php
-require_once "db/db_connect.php";
 $title = 'index';
 require_once "includes/header.php";
+require_once "db/db_connect.php";
 ?>
 
 
