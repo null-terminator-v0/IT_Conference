@@ -10,6 +10,6 @@ function validationForm(){
 
 function modalToggle(){
     if(validationForm()){
-        $("modal").modal("show");
+        document.getElementById("modal");
     }
 }
