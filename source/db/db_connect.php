@@ -26,3 +26,4 @@
     }
     $db_obj = new db_connect();
     $db_conn = $db_obj->getDB();
+?>
