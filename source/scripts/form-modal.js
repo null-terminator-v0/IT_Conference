@@ -11,7 +11,7 @@ $(document).ready(function () {
     $("input").click(function () {
         $(this).hide();
     });
-    $("select").click(function () {
+    $(".form-select").click(function () {
         $(this).hide();
     });
 });
