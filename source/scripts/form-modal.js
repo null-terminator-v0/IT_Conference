@@ -3,13 +3,11 @@ function validationForm(){
     if (x == ""){
         return (false);
     }
-    else {
-        return (true);
-    }
+    return (true);
 }
 
 function modalToggle(){
     if(validationForm()){
-        document.getElementById("modal").ariaHidden("false");
+        $('modal').show('show');
     }
 }
