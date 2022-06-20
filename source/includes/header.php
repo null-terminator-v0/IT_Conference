@@ -23,4 +23,4 @@
         <a class="flex-sm-fill text-sm-center nav-link text-white">About Us</a>
     </nav>
 </div>
-<div class="mydiv container center">
+<div class="my-div container center">
