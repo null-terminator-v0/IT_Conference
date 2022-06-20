@@ -34,9 +34,10 @@
         </div>
         <!--    Button to submit sign up information and trigger modal to determine whether the data was saved into the database   -->
         <div class="d-grid gap-2">
-            <button type="submit" id="submit" class="btn btn-dark" onclick="validationForm()" data-bs-toggle="modal" data-bs-target="#modal">Submit</button>
+            <button type="submit" id="submit" class="btn btn-dark" onclick="return validationForm()">Submit</button>
         </div>
     </form>
+<!--    data-bs-toggle="modal" data-bs-target="#modal"-->
 
     <!-- Modal to determine whether data was saved into the database    -->
     <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
