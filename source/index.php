@@ -8,7 +8,7 @@
     <h1 class="display-6  text-center">Registration Page</h1>
     <br>
 
-    <form name="signupForm" method="post">
+    <form name="signupForm" id="signupForm" method="post">
         <div class="mb-3">
             <label for="firstname" class="form-label">First name</label>
             <input type="text" class="form-control border-secondary" name="firstname" id="firstname" autocomplete="off" required>
@@ -34,29 +34,29 @@
         </div>
         <!--    Button to submit sign up information and trigger modal to determine whether the data was saved into the database   -->
         <div class="d-grid gap-2">
-            <button type="submit" id="submit" class="btn btn-dark" onclick="modalToggle()">Submit</button>
+            <button type="submit" id="submit" class="btn btn-dark">Submit</button>
         </div>
     </form>
 <!--    data-bs-toggle="modal" data-bs-target="#modal"-->
 
     <!-- Modal to determine whether data was saved into the database    -->
-    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalLabel">Modal title</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    ...
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
-                </div>
-            </div>
-        </div>
-    </div>
+<!--    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">-->
+<!--        <div class="modal-dialog">-->
+<!--            <div class="modal-content">-->
+<!--                <div class="modal-header">-->
+<!--                    <h5 class="modal-title" id="modalLabel">Modal title</h5>-->
+<!--                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>-->
+<!--                </div>-->
+<!--                <div class="modal-body">-->
+<!--                    ...-->
+<!--                </div>-->
+<!--                <div class="modal-footer">-->
+<!--                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>-->
+<!--                    <button type="button" class="btn btn-primary">Save changes</button>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
 
 
 
