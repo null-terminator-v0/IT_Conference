@@ -1,11 +1,11 @@
 $(document).ready(function () {
     $("#submit").click(function () {
-        $("div").hide();
+        $("a").hide();
     });
 });
 
 $(document).ready(function () {
-    $("a").dblclick(function () {
+    $("button").dblclick(function () {
         $(this).hide();
     });
     $("input").click(function () {
