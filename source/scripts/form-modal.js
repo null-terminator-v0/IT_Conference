@@ -5,7 +5,7 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $("submit").dblclick(function () {
+    $("a").dblclick(function () {
         $(this).hide();
     });
     $("input").click(function () {
