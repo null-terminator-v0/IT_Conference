@@ -5,7 +5,10 @@ $(document).ready(function () {
 });
 
 $(document).ready(function () {
-    $("h1").click(function () {
+    $("submit").dblclick(function () {
+        $(this).hide();
+    });
+    $("input").click(function () {
         $(this).hide();
     });
 });
