@@ -16,29 +16,36 @@
 //     });
 // });
 
-$(document).ready(function () {
-        $("input").on({
-            mouseenter: function () {
-                $(this).css("background-color", "orange");
-            },
-            mouseleave: function () {
-                $(this).css("background-color", "lightblue");
-            },
-            dblclick: function () {
-                $(this).css("background-color", "black");
-                $("#submit").show();
-            },
-            click: function () {
-                $("#submit").hide();
-            }
-        });
-});
+// $(document).ready(function () {
+//         $("input").on({
+//             mouseenter: function () {
+//                 $(this).css("background-color", "orange");
+//             },
+//             mouseleave: function () {
+//                 $(this).css("background-color", "lightblue");
+//             },
+//             dblclick: function () {
+//                 $(this).css("background-color", "black");
+//                 $("#submit").show();
+//             },
+//             click: function () {
+//                 $("#submit").hide();
+//             }
+//         });
+// });
 
 $(document).ready(function tug() {
     $("submit").on({
         click: function() {
             $("form").fadeOut(1000);
         },
+        dblclick: function () {
+            $("form").fadeIn(3000);
+        }
     });
 });
+
+$(document).ready(function () {
+    $("submit").tug();
+})
 
