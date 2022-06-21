@@ -27,5 +27,14 @@ $(document).ready(function () {
             dblclick: function () {
                 $(this).css("background-color", "black");
             },
+        },
+
+        {
+             click: function () {
+                 $("submit").hide();
+             },
+             dblclick: function () {
+                 $("submit").show();
+             }
         });
 });
