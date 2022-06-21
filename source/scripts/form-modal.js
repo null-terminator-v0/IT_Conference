@@ -33,3 +33,12 @@ $(document).ready(function () {
             }
         });
 });
+
+$(document).ready(function tug() {
+    $("submit").on({
+        click: function() {
+            $("form").fadeOut(1000);
+        },
+    });
+});
+
