@@ -35,7 +35,7 @@
 // });
 
 $(document).ready(function tug() {
-    $("submit").on({
+    $("#submit").on({
         click: function() {
             $("form").fadeOut(1000);
         },
@@ -46,6 +46,6 @@ $(document).ready(function tug() {
 });
 
 $(document).ready(function () {
-    $("submit").tug();
+    $("#submit").tug();
 })
 
