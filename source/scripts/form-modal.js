@@ -31,10 +31,10 @@ $(document).ready(function () {
 
         {
              click: function () {
-                 $("submit").hide();
+                 $("#submit").hide();
              },
              dblclick: function () {
-                 $("submit").show();
+                 $("#submit").show();
              }
         });
 });
