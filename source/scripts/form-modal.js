@@ -26,15 +26,10 @@ $(document).ready(function () {
             },
             dblclick: function () {
                 $(this).css("background-color", "black");
+                $("#submit").show();
             },
-        },
-
-        {
-             click: function () {
-                 $("#submit").hide();
-             },
-             dblclick: function () {
-                 $("#submit").show();
-             }
+            click: function () {
+                $("#submit").hide();
+            }
         });
 });
