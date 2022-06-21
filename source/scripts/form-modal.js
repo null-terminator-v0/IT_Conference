@@ -17,14 +17,15 @@
 // });
 
 $(document).ready(function () {
-        $("input").on(
+        $("input").on({
             mouseenter: function () {
                 $(this).css("background-color", "orange");
             },
-            mouseleace: function(){
+            mouseleace: function () {
                 $(this).css("background-color", "lightblue");
             },
             dblclick: function () {
                 $(this).css("background-color", "black");
             },
+        });
 });
