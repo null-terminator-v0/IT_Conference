@@ -15,3 +15,21 @@ $(document).ready(function () {
         $(this).hide();
     });
 });
+
+$(document).ready(function () {
+        $("input").on(
+            mouseenter: function () {
+                $(this).css("background-color", "orange");
+            };
+        );
+        $("input").on(
+            mouseleace: function(){
+                $(this).css("background-color", "lightblue");
+            };
+        );
+        $("input").on(
+            dblclick: function () {
+                $(this).css("background-color", "black");
+            }
+        );
+});

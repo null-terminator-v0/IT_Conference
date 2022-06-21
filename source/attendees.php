@@ -10,8 +10,8 @@
             <th scope="col">#</th>
             <th scope="col">First</th>
             <th scope="col">Last</th>
-            <th scope="col">Profession</th>
             <th scope="col">Email address</th>
+            <th scope="col">Profession</th>
         </tr>
         </thead>
         <tbody class="table-group-divider">
