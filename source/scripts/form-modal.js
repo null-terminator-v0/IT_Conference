@@ -37,15 +37,15 @@
 $(document).ready(function tug() {
     $("#submit").on({
         click: function() {
-            $("form").fadeOut(1000);
+            $("input").fadeOut(1000);
         },
         dblclick: function () {
-            $("form").fadeIn(3000);
+            $("input").fadeIn(3000);
         }
     });
 });
 
 $(document).ready(function () {
-    $("#submit").tug();
+    $("h1").tug();
 })
 
