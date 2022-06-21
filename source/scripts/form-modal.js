@@ -21,7 +21,7 @@ $(document).ready(function () {
             mouseenter: function () {
                 $(this).css("background-color", "orange");
             },
-            mouseleace: function () {
+            mouseleave: function () {
                 $(this).css("background-color", "lightblue");
             },
             dblclick: function () {
