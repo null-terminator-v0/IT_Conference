@@ -46,6 +46,6 @@ $(document).ready(function tug() {
 });
 
 $(document).ready(function () {
-    $("h1").tug();
+    $("#sub-heading").tug();
 })
 

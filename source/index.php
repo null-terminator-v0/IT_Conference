@@ -5,7 +5,7 @@
 
 
     <h1 class="display-4 text-center text-secondary"><u>IT CONFERENCE</u></h1>
-    <h1 class="display-6  text-center">Registration Page</h1>
+    <h1 class="display-6 text-center" id="sub-heading">Registration Page</h1>
     <br>
 
     <form name="signupForm" id="signupForm" method="post">
