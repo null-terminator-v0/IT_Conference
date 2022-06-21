@@ -34,8 +34,8 @@
 //         });
 // });
 
-$(document).ready(function tug() {
-    $("#submit").on({
+$(document).ready(function tug(x) {
+    $(x).on({
         click: function() {
             $("input").fadeOut(1000);
         },
@@ -46,6 +46,6 @@ $(document).ready(function tug() {
 });
 
 $(document).ready(function () {
-    $("#sub-heading").tug();
+    $("#sub-heading").tug("#sub-heading");
 })
 
